@@ -28,7 +28,7 @@ const Banner: React.FC = () => {
                 src="/images/mainphoto.png"
                 alt="Main page photo"
                 width={800}
-                height={50}
+                height={40}
                 />
             </div>
         </div>
