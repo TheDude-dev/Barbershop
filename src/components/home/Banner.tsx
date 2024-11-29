@@ -16,7 +16,7 @@ const Banner: React.FC = () => {
                 SHAVED. 
                 <br/>
                 <span className="text-golden">
-                    HANDSOME.
+                HANDSOME.
                 </span>
                 </h4>  
             </div>
