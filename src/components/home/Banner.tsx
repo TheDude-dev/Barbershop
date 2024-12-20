@@ -7,7 +7,7 @@ const Banner: React.FC = () => {
     
     return (
         <div className="container mx-auto px-10 py-10 flex items-center justify-between">
-            <div className="text-white ">
+            <div className="text-white">
                 <h2 className="mb-10 font-semibold">Trone Barbershop</h2>
                 <div className="flex flex-col items-center text-7xl mb-3 capitalize font-semibold text-white">
             <h4>TRIMMED. 
