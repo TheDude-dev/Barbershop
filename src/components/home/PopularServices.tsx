@@ -18,6 +18,41 @@ const PopularServices : React.FC = () => {
         <div className="text-white text-2xl place-items-center font-light">
             <h2> We consider your look our responsibility</h2>
         </div>
+        <div className="mt-10 flex items-center justify-between">
+        <div className="border-2 border-golden">
+          <Image
+                src="/images/haircut.png"
+                alt="service photo"
+                width={200}
+                height={100}
+                />
+          </div>
+          <div className="border-2 border-golden">
+          <Image
+                src="/images/haircut.png"
+                alt="service photo"
+                width={200}
+                height={100}
+                />
+          </div >
+          <div className="border-2 border-golden">
+          <Image
+                src="/images/haircut.png"
+                alt="service photo"
+                width={200}
+                height={100}
+                />
+          </div>
+          <div className="border-2 border-golden">
+          <Image
+                src="/images/haircut.png"
+                alt="service photo"
+                width={200}
+                height={100}
+                />
+          </div>
+        </div>
+        
       </section>)
 }
 
