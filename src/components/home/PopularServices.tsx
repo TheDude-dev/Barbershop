@@ -3,8 +3,8 @@ import React from "react";
 
 const PopularServices : React.FC = () => {
     
-      return(<section className="bg-popular px-10 py-10">
-        <div className="text-white mb-8 text-7xl place-items-center font-medium">
+      return(<section className="bg-popular px-10 py-20">
+        <div className="text-white mb-6 text-7xl place-items-center font-medium">
           <div className="mt-10">
           <Image
                 src="/images/scissorspopular.png"

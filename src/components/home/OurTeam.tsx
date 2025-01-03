@@ -4,13 +4,13 @@ import React from "react";
 const OurTeam : React.FC = () => {
     
       return(<section className="px-20 py-20">
-        <div className="text-white mb-8 text-7xl place-items-center font-medium">
+        <div className="text-white mb-6 text-7xl place-items-center font-medium">
           <div className="mt-10">
           <Image
                 src="/images/scissorspopular.png"
                 alt="service photo"
-                width={200}
-                height={50}
+                width={150}
+                height={40}
                 />
           </div>
             <h1>Our Team</h1>
