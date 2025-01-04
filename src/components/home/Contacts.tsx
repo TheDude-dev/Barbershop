@@ -1,8 +1,10 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
+import {ContactForm} from "./contact/contactForm";
 
 const Contacts : React.FC = () => {
     
@@ -21,9 +23,9 @@ const Contacts : React.FC = () => {
         <div className="text-white text-1xl place-items-center font-light">
             <h2> Every client leaves happy with a fresh haircut</h2>
         </div>
-        <div className="mt-10 px-10 py-10 flex items-center justify-between">
+        <div className="mt-8 px-10 py-10 flex items-center justify-between">
             <div className="flex flex-row items-center space-x-4 text-white ">
-              <div className="space-y-10">
+              <div className="space-y-8">
                 <p className="text-golden">
                   We're ready to serve real men, who value service 
                   <br/>
@@ -48,9 +50,10 @@ const Contacts : React.FC = () => {
                 width={400}
                 height={100}
                 />
-                <form>
-                  
-                </form>
+                <ContactForm
+                onSuccessFullValidation={() => {}}
+                submitButtonLabel="book"
+                />    
           </div>  
       </div>
       </section>)
