@@ -8,7 +8,7 @@ import {ContactForm} from "./contact/contactForm";
 
 const Contacts : React.FC = () => {
     
-      return(<section className="bg-popular px-20 py-20">
+      return(<section className="bg-popular px-20 py-20 items-center">
         <div className="text-white mb-6 text-7xl place-items-center font-medium">
           <div className="mt-10">
           <Image
@@ -23,7 +23,7 @@ const Contacts : React.FC = () => {
         <div className="text-white text-1xl place-items-center font-light">
             <h2> Every client leaves happy with a fresh haircut</h2>
         </div>
-        <div className="mt-8 px-10 py-10 flex items-center justify-between">
+        <div className="mt-8 px-10 py-10 flex flex-row items-center justify-between">
             <div className="flex flex-row items-center space-x-4 text-white ">
               <div className="space-y-8">
                 <p className="text-golden">
