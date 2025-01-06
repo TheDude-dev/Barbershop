@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import Image from "next/image"
 import { useState, useEffect } from "react"
-
+import { BiLogoTelegram } from "react-icons/bi"
+import { FaFacebookF } from "react-icons/fa"
 
 
 const links = [
@@ -67,7 +68,7 @@ const MenuBar: React.FC = () => {
                 ))}
             </div> 
             </div>
-            <div className="mt-4 flex items-center">
+            <div className="mt-4 flex items-center justify-between ml-auto">
                 <Link
                 key={"/phone"} 
                 href={"/phone"}
@@ -80,6 +81,14 @@ const MenuBar: React.FC = () => {
                 >
               +79776087081
                 </Link>
+                <div className="mx-4 flex items-center justify-between">
+                <div className="bg-golden p-1 mx-2 rounded-full">
+                <BiLogoTelegram size={18}/>
+                </div>
+                <div className="bg-golden p-1 mx-2 rounded-full">
+                <FaFacebookF size={18} />
+                </div> 
+                </div>           
             </div>
            
         </div>
