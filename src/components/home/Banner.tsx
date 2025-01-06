@@ -3,7 +3,11 @@
 import { cn } from "@/lib/utils"
 import Image from "next/image"
 import { Button } from "../ui/button"
+import { useState } from "react"
 const Banner: React.FC = () => {
+    const [selectedDate, setSelectedDate] = useState<Date | null>(null)
+    const [selectedTime, setSelectedTime] = useState<string | null>(null)
+    const [availableTimes, setAvailableTimes] = useState<string[] | []>([])
     
     return (
         <div className="container mx-auto px-10 py-10 flex items-center justify-between">
@@ -19,7 +23,7 @@ const Banner: React.FC = () => {
                 </span>
                 </h4>  
             </div>
-            <Button variant="book" className="mt-8 font-semibold">Book</Button>
+            <Button variant="book" className="mt-8">Book</Button>
             </div>
             <div>
                 <Image
